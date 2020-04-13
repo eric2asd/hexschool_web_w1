@@ -84,7 +84,7 @@ table {
     border-bottom: 1px solid #000;
     padding-bottom: 8px;
 }
-.title h2, .title_work {
+.title h2, .title_work h2{
     font-size: 32px;
     line-height: 45px;
     margin-right: 16px;
