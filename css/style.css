@@ -49,7 +49,6 @@ table {
 
 .name h1 {
     font-size: 80px;
-    width: 288px;
     line-height: 90px;
     margin-bottom: 24px;
 
@@ -79,19 +78,19 @@ table {
 }
 
 
-.title {
+.title, .title_work {
     display: flex;
     align-items: center;
     border-bottom: 1px solid #000;
     padding-bottom: 8px;
 }
-.title h2 {
+.title h2, .title_work {
     font-size: 32px;
     line-height: 45px;
     margin-right: 16px;
 }
 
-.title h3 {
+.title h2.subtitle, .title_work h2.subtitle {
     font-size: 24px;
     line-height: 32px;
     color: #A00404;
@@ -192,7 +191,7 @@ table {
     margin-right: 16px;
 }
 
-.skills_title h3, .footer_title h3{
+.skills_title h2.subtitle, .footer_title h2.subtitle{
     font-size: 24px;
     line-height: 32px;
     color: #fff;
@@ -212,12 +211,14 @@ table {
     line-height: 36px;
 }
 
+.title_work {
+    margin-bottom: 22px;
+}
 .content_work {
     width: 642px;
     margin-left: 24px;
     border-left: 1px solid #96A9C4;
     padding-left: 24px;
-    padding-top: 22px;
     margin-bottom: 72px;
 }
 
@@ -280,24 +281,21 @@ a {
 }
 
 .name {
-    font-family: "Andale Mono";
+    font-family: "Andale Mono", sans-serif;
 }
 
-
-
-
-.title h2, .content_work h4 , .skills_title h2, .footer_title h2 {
-    font-family: "PingFangTC-Medium";
+.title h2, .content_work h4 , .skills_title h2, .footer_title h2, .title_work h2 {
+    font-family: "PingFangTC-Medium", sans-serif;
 }
 
-.title h3, .skills_title h3, .footer_title h3 {
-    font-family: "Roboto Medium";
+.title h2.subtitle, .skills_title h2.subtitle, .footer_title h2.subtitle, .title_work h2.subtitle {
+    font-family: "Roboto Medium", sans-serif;
 }
 
 .skills_content li {
-    font-family: "Roboto Light";
+    font-family: "Roboto Light", sans-serif;
 }
 
 .content p, .content_work p, .footer_content li, .skills_content li.pingfang_light {
-    font-family: "PingFangTC-Light";
+    font-family: "PingFangTC-Light", sans-serif;
 }
